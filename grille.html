@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grille</title>
+</head>
+
+<body>
+    <style>
+       body {
+        background-color: #050b21;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .conteneur{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 85%;
+        width: 50%;
+        gap: 8px;
+    
+       }
+       .conteneure1{
+        height: 10%;
+        width: 100%;
+        background-color: #1f2535;   
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
+      .logo >img{
+        width: 100px;
+        height: 50px;
+        
+       }
+       .image >button{
+        border-radius: 8px;
+        background-color: #515866;
+        margin: 5px;
+        
+
+       }
+       .conteneure2{
+        height: 15%;
+        width: 100%;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+       }
+       .conteneure3{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        justify-content: center;
+        height: 75%;
+        width: 100%;
+        /* border: 2px solid; */
+      
+        border-radius: 8px;
+        gap: 8px;
+
+       }
+       .conteneure3 > div{
+        height: 135px;
+        width: 305px;
+        border-radius: 8px;
+        background-color: #1f2535;
+      
+       
+
+       }
+       .boutton1 {
+        width: 80px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: #2f344b;
+       } 
+        .boutton2 {
+        width: 100px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: #2f344b;
+       } 
+       .boutton3 {
+         width: 100px;
+         height: 50px;
+         border-radius: 25px;
+         background-color: #2f344b;
+        } 
+        .h-p{
+         
+            display: flex;
+       
+        
+
+        }
+        .h-p > div{
+            display: flex;
+             gap: 8px;
+             
+
+        }
+        .but-inp{
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+    </style>
+    <div class="conteneur">
+        <div class="conteneure1">
+            <div class="logo" ><img src="image/logo.svg" alt=""></div>
+            <div class="image">
+
+                <button>
+                    <img src="image/icon-sun.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="conteneure2">
+            <div>Extensions List</div>
+            <div>
+                <button class="boutton1" >All</button>
+                <button class="boutton2">Active</button>
+                <button class="boutton3">Inactive</button>
+
+            </div>
+        </div>
+        <div class="conteneure3">
+            <div>
+                <div class="h-p">
+                
+                  <img src="image/logo-devlens.svg" alt="">
+                    <div>
+                          <h3>DevLens</h3> 
+                         <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                    </div>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>
+              <div>
+                <div class="h-p">
+                  <img src="image/logo-style-spy.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>  <div>
+                <div class="h-p">
+                  <img src="image/logo-speed-boost.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>  <div>
+                <div class="h-p">
+                  <img src="image/logo-json-wizard.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>  <div>
+                <div class="h-p">
+                  <img src="image/logo-tab-master-pro.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>  <div>
+                <div class="h-p">
+                  <img src="image/logo-viewport-buddy.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>  <div>
+                <div class="h-p">
+                  <img src="image/logo-markup-notes.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>  <div>
+                <div class="h-p">
+                  <img src="image/logo-grid-guides.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>  <div>
+                <div class="h-p">
+                  <img src="image/logo-palette-picker.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>  <div>
+                <div class="h-p">
+                  <img src="image/logo-link-checker.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>  <div>
+                <div class="h-p">
+                  <img src="image/logo-dom-snapshot.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>  <div>
+                <div class="h-p">
+                  <img src="image/logo-console-plus.svg" alt="">
+                  <h3>DevLens</h3>
+                 <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+                <div class="but-inp">
+                  <button class="remove">Remove</button>
+                  <input type="checkbox" checked>
+
+                </div>
+            </div>
+          
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
